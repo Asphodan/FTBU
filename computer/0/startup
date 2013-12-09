@@ -1,0 +1,6 @@
+while true do
+redstone.setOutput("right", true)
+sleep(300)
+redstone.setOutput("right", false)
+sleep(800)
+end
